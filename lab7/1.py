@@ -6,7 +6,6 @@ def find_emails(text):
     emails = re.findall(pattern, text)
     return emails
 
-# Example usage
 text = input("contact details: ")
 emails = find_emails(text)
 print("Found emails:", emails)
